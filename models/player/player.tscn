@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://bcarq43wf02ir"]
+
+[ext_resource type="Script" uid="uid://cpgly7mennln6" path="res://models/player/player.gd" id="1_12ta4"]
+[ext_resource type="Texture2D" uid="uid://binqhu2w7qa3x" path="res://global/assets/itch_assets/Legacy-Fantasy-High-Forest/Character/Idle/Idle-Sheet.png" id="2_v3lrv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_onrkg"]
+size = Vector2(10, 32)
+
+[node name="Player" type="CharacterBody2D" unique_id=2113160347]
+z_index = 16
+script = ExtResource("1_12ta4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=366746859]
+position = Vector2(0, 8)
+shape = SubResource("RectangleShape2D_onrkg")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=156180317]
+offset = Vector2(0, -32)
+zoom = Vector2(3, 3)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2106301134]
+texture = ExtResource("2_v3lrv")
+hframes = 4
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1910596909]
+root_node = NodePath("../Sprite2D")

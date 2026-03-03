@@ -11,11 +11,20 @@ config_version=5
 [application]
 
 config/name="project-platformer"
+run/main_scene="uid://bcfncss0qqnpj"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/ldtk-importer/plugin.cfg")
+
+[layer_names]
+
+2d_physics/layer_1="Ground"
+2d_physics/layer_2="Player"
+2d_physics/layer_3="Enemies"
+2d_physics/layer_4="NPCs"
+2d_physics/layer_5="Props"
 
 [physics]
 

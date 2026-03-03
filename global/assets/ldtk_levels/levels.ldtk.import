@@ -7,10 +7,10 @@ path="res://.godot/imported/levels.ldtk-8f953633e54fb103e5d146e3dd8da316.scn"
 
 [deps]
 
-files=["res://global/assets/ldtk_levels/levels/Level_0.scn", "res://.godot/imported/levels.ldtk-8f953633e54fb103e5d146e3dd8da316.scn"]
+files=["res://global/assets/ldtk_levels/tilesets/tileset_16px.res", "res://global/assets/ldtk_levels/levels/Level_0.scn", "res://.godot/imported/levels.ldtk-8f953633e54fb103e5d146e3dd8da316.scn"]
 
 source_file="res://global/assets/ldtk_levels/levels.ldtk"
-dest_files=["res://.godot/imported/levels.ldtk-8f953633e54fb103e5d146e3dd8da316.scn", "res://global/assets/ldtk_levels/levels/Level_0.scn", "res://.godot/imported/levels.ldtk-8f953633e54fb103e5d146e3dd8da316.scn"]
+dest_files=["res://.godot/imported/levels.ldtk-8f953633e54fb103e5d146e3dd8da316.scn", "res://global/assets/ldtk_levels/tilesets/tileset_16px.res", "res://global/assets/ldtk_levels/levels/Level_0.scn", "res://.godot/imported/levels.ldtk-8f953633e54fb103e5d146e3dd8da316.scn"]
 
 [params]
 
