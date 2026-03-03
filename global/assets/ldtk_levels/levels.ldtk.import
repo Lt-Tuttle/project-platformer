@@ -3,14 +3,14 @@
 importer="ldtk.import"
 type="PackedScene"
 uid="uid://c76152cma6ler"
-path="res://.godot/imported/levels.ldtk-eb3685b0ea6f921db1e5f12d6863eaff.scn"
+path="res://.godot/imported/levels.ldtk-8f953633e54fb103e5d146e3dd8da316.scn"
 
 [deps]
 
-files=["res://global/assets/environment/levels/Level_0.scn", "res://.godot/imported/levels.ldtk-eb3685b0ea6f921db1e5f12d6863eaff.scn"]
+files=["res://global/assets/ldtk_levels/levels/Level_0.scn", "res://.godot/imported/levels.ldtk-8f953633e54fb103e5d146e3dd8da316.scn"]
 
-source_file="res://global/assets/environment/levels.ldtk"
-dest_files=["res://.godot/imported/levels.ldtk-eb3685b0ea6f921db1e5f12d6863eaff.scn", "res://global/assets/environment/levels/Level_0.scn", "res://.godot/imported/levels.ldtk-eb3685b0ea6f921db1e5f12d6863eaff.scn"]
+source_file="res://global/assets/ldtk_levels/levels.ldtk"
+dest_files=["res://.godot/imported/levels.ldtk-8f953633e54fb103e5d146e3dd8da316.scn", "res://global/assets/ldtk_levels/levels/Level_0.scn", "res://.godot/imported/levels.ldtk-8f953633e54fb103e5d146e3dd8da316.scn"]
 
 [params]
 
