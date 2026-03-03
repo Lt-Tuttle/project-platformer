@@ -12,7 +12,10 @@ config_version=5
 
 config/name="project-platformer"
 config/features=PackedStringArray("4.6", "GL Compatibility")
-config/icon="res://icon.svg"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/ldtk-importer/plugin.cfg")
 
 [physics]
 
